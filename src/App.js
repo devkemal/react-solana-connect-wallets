@@ -36,17 +36,20 @@ function App() {
   );
   return (
     <>
-    <ConnectionProvider endpoint={endpoint}>
-      <WalletProvider wallets={wallets} autoConnect>
-        <WalletModalProvider>
-          <div className='connectWallet'>
-            <WalletDisconnectButton style={{ margin: '20px' }} />
-            <WalletMultiButton style={{ margin: '20px' }} />
-          </div>
-        </WalletModalProvider>
-      </WalletProvider>
-    </ConnectionProvider>
-    <code>Source: <a href="https://github.com/solana-labs/wallet-adapter" target={'_blank'} rel="noreferrer noopener">/solana-labs/wallet-adapter</a></code>
+      <ConnectionProvider endpoint={endpoint}>
+        <WalletProvider wallets={wallets} autoConnect>
+          <WalletModalProvider>
+            <div className='connectWallet'>
+              <WalletDisconnectButton style={{ margin: '20px' }} />
+              <WalletMultiButton style={{ margin: '20px' }} />
+            </div>
+          </WalletModalProvider>
+        </WalletProvider>
+      </ConnectionProvider>
+      <code>
+        This repo <a href="https://github.com/humangillerden/react-solana-connect-wallets" target={'_blank'} rel="noreferrer noopener">/humangillerden/react-solana-connect-wallets</a>
+        Source: <a href="https://github.com/solana-labs/wallet-adapter" target={'_blank'} rel="noreferrer noopener">/solana-labs/wallet-adapter</a>
+      </code>
     </>
   );
 }
