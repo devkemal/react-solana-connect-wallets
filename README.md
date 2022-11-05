@@ -2,6 +2,8 @@
 
 This project was connected solana wallets with react.
 
+### [Live Preview Vercel](https://react-solana-connect-wallets.vercel.app)
+
 ![Modal](https://github.com/humangillerden/react-solana-connect-wallets/blob/main/public/images/modal.png?raw=true)
 
 ![Connected](https://github.com/humangillerden/react-solana-connect-wallets/blob/main/public/images/connected.png?raw=true)

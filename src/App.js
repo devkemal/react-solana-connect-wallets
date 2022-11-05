@@ -47,7 +47,7 @@ function App() {
         </WalletProvider>
       </ConnectionProvider>
       <code>
-        This repo <a href="https://github.com/humangillerden/react-solana-connect-wallets" target={'_blank'} rel="noreferrer noopener">/humangillerden/react-solana-connect-wallets</a><br />
+        This Repo: <a href="https://github.com/humangillerden/react-solana-connect-wallets" target={'_blank'} rel="noreferrer noopener">/humangillerden/react-solana-connect-wallets</a><br />
         Source: <a href="https://github.com/solana-labs/wallet-adapter" target={'_blank'} rel="noreferrer noopener">/solana-labs/wallet-adapter</a>
       </code>
     </>
