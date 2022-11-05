@@ -2,7 +2,9 @@
 
 This project was connected solana wallets with react.
 
-![alt text](https://github.com/humangillerden/react-solana-connect-wallets/blob/[branch]/image.jpg?raw=true)
+![Modal](https://github.com/humangillerden/react-solana-connect-wallets/blob/main/public/images/modal.png?raw=true)
+
+![Connected](https://github.com/humangillerden/react-solana-connect-wallets/blob/main/public/images/connected.png?raw=true)
 
 ## Available Scripts
 
