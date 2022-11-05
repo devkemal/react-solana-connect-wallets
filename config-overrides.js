@@ -31,8 +31,8 @@ module.exports = function (config, env) {
             fallback: {
                 assert: require.resolve('assert'),
                 buffer: require.resolve('buffer'),
-                //crypto: require.resolve('crypto-browserify'),
-                //stream: require.resolve('stream-browserify'),
+                crypto: require.resolve('crypto-browserify'),
+                stream: require.resolve('stream-browserify'),
             },
         },
         ignoreWarnings: [/Failed to parse source map/],
